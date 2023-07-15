@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/Hamburguesa2/assets/images/icono hamburguer.ico">
+    <title>La Hamburguesa Programadora</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- Buscar Logo para insertar aqui -->
+            <a class="header__logo"></a>
+            <nav>
+                <a href="#intro-here">Quienes Somos</a>
+                <a href="#products-here">Productos</a>
+                <a href="#services-here">Servicios</a>
+                <a href="#contacts-here">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido del main llega hasta el "Suscribete" -->
+    <main>
+        <section class="section__banner">
+            <h1>La hamburguesa Programadora</h1>
+            <h2>&#8250; La hamburguesa que te lleva a la Matrix &#8249;</h2>
+            <p>Ingresa tu email para crear una cuenta:</p>
+            <input type="email" placeholder="Email" name="email" required>
+            <button>Enviar &gt;</button>
+        </section>
+
+        <section class="section__intro" id="intro-here">
+            <article class="container">
+                <div class="section__intro-text">
+                    <h2>Somos La Hamburguesa del futuro</h2>
+                    <p>Luego de multiples Simulaciones, hemos dado con la formula perfecta,
+                        aqui Encontraras Las Mejores Hamburguesas, programadas con los mejores ingredientes.
+                    </p>
+                </div>
+                <div class="section__intro-img"></div>
+            </article>
+        </section>
+
+        <section class="section__product" id="products-here">
+            <div class="container">
+                <h2>Nuestros Productos</h2>
+                <div class="section__product-card">
+                    <!-- Product-card manipula la ubicacion de las tarjetas en el contenedor -->
+                    <div class="card1">
+                        <h3>La Full Stack</h3>
+                        <p>Doble Hamburguesa, Queso cheddar, Pepinillos, Cebolla morada, Tomate y Secret Sauce</p>
+                        <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <button>+ Info</button>
+                    </div>
+
+                    <div class="card2">
+                        <h3>La Python</h3>
+                        <p>Triple Hamburguesa, Pepinillos, Cebolla caramelizada y pimenton.</p>
+                        <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <button>+ Info</button>
+                    </div>
+
+                    <div class="card3">
+                        <h3>La CSS</h3>
+                        <p>Hamburguesa, Queso cheddar, Tocino, Pepinillos, Salsa Barbecue y Mayonesa.</p>
+                        <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <button>+ Info</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__characteristics" id="services-here">
+            <div class="container">
+                <div class="section__characteristics-img"></div>
+                <div class="section__characteristics-text">
+                    <h2>¿Porque Escojernos?</h2>
+                    <ul>
+                        <li><a href="">Ingredientes Frescos</a></li>
+                        <li><a href="">Carta Variada</a></li>
+                        <li><a href="">Experiencia</a></li>
+                        <li><a href="">Local Establecido</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <aside class="section__input">
+        <h2>Suscribete a nuestro boletin y participa en el sorteo de una Parrilla</h2>
+        <p>"Ideal para esas hamburguesas caseras que tanto nos gustan"</p>
+        <input type="email" placeholder="Email" name="email" required>
+        <button type="submit">Enviar &gt;</button>
+    </aside>
+
+    <footer>
+        <div class="footer__content" id="contacts-here">
+            <div class="footer__content-group1">
+                <div class="box">
+                    <div class="box-1">
+                        <a href="#" class="footer_logo"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>Soporte</h2>
+                    <div class="support__network-box">
+                        <div>
+                            <ul>
+                                <li><a href="#">Centro de Ayuda</a></li>
+                                <li><a href="#">Reclamos</a></li>
+                                <li><a href="#">Términos y condiciones</a></li>
+                                <li><a href="#">Contáctanos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h2>Siguenos</h2>
+                    <div class="social__network-box">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube-play"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__content-group2">
+                <p>&copy; 2023 <b>RichiFu Burgers</b>: Todos los Derechos Reservados.</>
+                </p>
+            </div>
+    </footer>
+</body>
+</html>
