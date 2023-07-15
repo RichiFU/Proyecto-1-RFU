@@ -260,7 +260,7 @@ header a:hover {
 
 
 .card1 {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.393)), url(/Hamburguesa2/assets/images/fullstack.avif);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.393)), url(/assets/images/fullstack.avif);
     padding: 40px;
     margin: 20px;
     border-radius: 10px;
@@ -270,7 +270,7 @@ header a:hover {
 }
 
 .card2 {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.393)), url(/Hamburguesa2/assets/images/python.avif);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.393)), url(/assets/images/python.avif);
     padding: 40px;
     margin: 20px;
     border-radius: 10px;
@@ -280,7 +280,7 @@ header a:hover {
 }
 
 .card3 {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.393)), url(/Hamburguesa2/assets/images/La\ Jumbotron.avif);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.393)), url(/assets/images/La\ CSS.avif);
     padding: 40px;
     margin: 20px;
     border-radius: 10px;
@@ -342,7 +342,7 @@ header a:hover {
 
 
 .section__characteristics-img {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.318), rgba(0, 0, 0, 0.143)), url(/Hamburguesa2/assets/images/Local.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.318), rgba(0, 0, 0, 0.143)), url(/assets/images/Local.jpg);
     background-size: cover;
     background-position: center;
     height: 620px;
@@ -353,7 +353,7 @@ header a:hover {
 
 
 .section__input {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.825), rgba(0, 0, 0, 0.798)), url(/Hamburguesa2/assets/images/Descuentos.avif);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.825), rgba(0, 0, 0, 0.798)), url(/assets/images/Descuentos.avif);
     color: #fff;
     text-align: center;
     background-size: cover;
@@ -465,7 +465,7 @@ footer {
 .footer_logo {
     width: 250px;
     height: 250px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.465), rgba(255, 255, 255, 0.491)), url(/Hamburguesa2/assets/images/logo\ hamburguesa.png);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.465), rgba(255, 255, 255, 0.491)), url(/assets/images/Logo\ Hamburguesa\ 2.png);
     border-radius: 10px;
     box-shadow: 10px 10px 10px #0000008f;
     background-size: cover;
